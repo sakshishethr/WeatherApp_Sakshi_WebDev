@@ -1,5 +1,7 @@
-﻿namespace WebApp_Library
+﻿namespace WebApp_Library.Class
+
 {
+
     public class GeoRoot
     {
         public string name { get; set; }
@@ -7,6 +9,6 @@
         public double lon { get; set; }
         public string country { get; set; }
         public string state { get; set; }
-
     }
+
 }
