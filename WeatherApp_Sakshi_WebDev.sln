@@ -4,8 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp_Sakshi_WebDev", "WeatherApp_Sakshi_WebDev\WeatherApp_Sakshi_WebDev.csproj", "{CF5E5E0B-4AF3-40F6-A6E6-81022563C932}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0765AE0A-2E15-44BE-B7BC-57FE6254D624} = {0765AE0A-2E15-44BE-B7BC-57FE6254D624}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_Test", "WebApp_Test\WebApp_Test.csproj", "{CCEC8EEF-DE7C-4756-BAB7-0899B0AC7EB4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0765AE0A-2E15-44BE-B7BC-57FE6254D624} = {0765AE0A-2E15-44BE-B7BC-57FE6254D624}
+		{CF5E5E0B-4AF3-40F6-A6E6-81022563C932} = {CF5E5E0B-4AF3-40F6-A6E6-81022563C932}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_Library", "WebApp_Library\WebApp_Library.csproj", "{0765AE0A-2E15-44BE-B7BC-57FE6254D624}"
 EndProject
