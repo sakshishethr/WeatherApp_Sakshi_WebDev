@@ -1,7 +1,5 @@
 ﻿namespace WebApp_Library.Class
 {
-
-
     public class Alert
     {
         public string sender_name { get; set; }
@@ -120,3 +118,4 @@
 
 
 }
+
