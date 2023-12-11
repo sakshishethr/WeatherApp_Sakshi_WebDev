@@ -17,7 +17,7 @@ namespace WebApp_Library.Tests
         [Test]
         public void WhenSettingName_ShouldReturnCorrectValue()
         {
-            // Arrange
+            
             var expectedName = "New York";
 
             // Act
