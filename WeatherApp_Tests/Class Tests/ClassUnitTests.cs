@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 using Newtonsoft.Json;
-using WeatherApp_Sakshi_WebDev.Class; // Make sure this using directive matches your namespace
+using WebApp_Library.Class; 
 using System;
 
 namespace WeatherApp_Sakshi_WebDev.Tests

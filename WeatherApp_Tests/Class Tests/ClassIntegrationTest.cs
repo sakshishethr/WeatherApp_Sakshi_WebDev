@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using WeatherApp_Sakshi_WebDev.Class;
+using WebApp_Library.Class;
 
 namespace WeatherApp_Sakshi_WebDev.Tests
 {
