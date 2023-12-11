@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Desktop\WeatherApp_Sakshi_WebDev\WebApp_Library\WebApp_Library.csproj" />
+    <ProjectReference Include="..\..\Desktop\Ad\WebApp_Library\WebApp_Library.csproj" />
     <ProjectReference Include="..\WeatherAppLibrary\WeatherAppLibrary.csproj" />
     <ProjectReference Include="..\WebApp_Library\WebApp_Library.csproj" />
   </ItemGroup>
